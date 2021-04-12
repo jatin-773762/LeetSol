@@ -1,0 +1,19 @@
+The task is to save all your leetcode accepted solution in local directory
+
+# links to be used:
+    base url: https://leetcode.com/api/submissions/
+    parameters: ?offset=20&limit=20&lastkey=
+    lastkey: will be provided by previous result
+
+# json data to be used:
+    submission_dump:[
+        status_display: "Accepted"
+        code: ""
+        title_slug: ""
+        title: ""
+        lang: 
+    ]
+    has_next:"true"
+    last_key:""
+
+# cookie: "check this in logged in session of leetcode"
